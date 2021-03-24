@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f992f;
+}
+
+.title-navbar {
+    margin-left: 20px;
+    display: inline-block;
+    width: 40%;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+}
+
+
+.title-header {
+    text-align: center;
+    height: 300px;
+    position: relative;
+    background-color: #CEEFCE;
+    color: #2f992f;
+}
+
+.isi-header {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+section h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #2f992f;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.form-calculator {
+    width: 40%;
+    height: 300px;
+}
+
+.form-calculator h2 , .result-calculator h2{
+    color: #fff;
+}
+
+
+section {
+    text-align: center;
+    background-color: #CEEFCE;
+
+}
+
+.result-calculator {
+    width: 40%;
+    height: 300px;
+}
+
+input[type=text] {
+    display: inline-block;
+    min-height: 36px;
+    padding: 8px 12px;
+    width: 100%;
+    margin-top: 5px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 15px;
+    color: #404040;
+    outline: none;
+  }
+
+  .menu-pilihan {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      border-bottom: 1px solid gray;
+      padding: 20px 0;
+      margin: 0;
+      background-color: #2f992f;
+      color: #fff
+  }
+
+  .menu-pilihan li {
+      display: inline-block;
+      text-align: center;
+      width: 33%;
+      font-size: 30px;
+  }
+
+
+  #calculateBtn {
+      margin: 30px 0;
+      width: 200px;
+      height: 50px;
+      background-color: #2f992f;
+      color: #fff;
+      border-radius: 10px;
+      border: 0;
+  }
+
+  #silinder-form , #kerucut-form, #bola-form {
+      display: none;
+  }
+
+ 
+
+  footer {
+      background-color: #2f992f;
+      color: #fff;
+  }
+
+  footer ul {
+      margin: 0;
+  }
+
+  footer li{
+      display: inline-block;
+      width: 50px;
+      padding: 10px;
+  }
+
+  .form-calculator, .result-calculator {
+    background-color: #2f992f;
+    color: white;
+    padding: 0 15px;
+    border-radius: 10px;
+  }
