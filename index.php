@@ -35,7 +35,7 @@
             <li onclick="swBola()">Bola</li>
         </ul>
 
-        <h2>Hi <span id="nama-user">Guest</span></h2>
+        <h2>Selamat <span id="nama-user">Guest</span></h2>
 
         <div id='silinder-form' class="calculator">
             <div class="form-calculator">
