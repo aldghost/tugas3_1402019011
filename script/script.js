@@ -4,10 +4,20 @@ let nama = prompt("Masukkan nama Anda ?");
 let dat = new Date();
 let jam = dat.getHours();
 let timenya = "";
-if (jam < 12) timenya = "Pagi";
-else if (jam > 12 && jam < 16) timenya = "Siang";
-else if (jam > 16 && jam < 19) timenya = "Sore"
-else timenya = "Malam";
+if (jam < 12) {
+    timenya = "Pagi";
+}
+else if (jam > 12 && jam < 16) {
+    timenya = "Siang";
+}
+else if (jam > 16 && jam < 19) {
+    timenya = "Sore"
+}
+else {
+    timenya = "Malam";
+}
+
+console.log(timenya)
 
 document.getElementById('nama-user').innerHTML = `${timenya}, ${nama}`;
 
