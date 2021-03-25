@@ -1,6 +1,15 @@
 
 let nama = prompt("Masukkan nama Anda ?");
-document.getElementById('nama-user').innerHTML = nama;
+
+let dat = new Date();
+let jam = dat.getHours();
+let timenya = "";
+if (jam < 12) timenya = "Pagi";
+else if (jam > 12 && jam < 16) timenya = "Siang";
+else if (jam > 16 && jam < 19) timenya = "Sore"
+else timenya = "Malam";
+
+document.getElementById('nama-user').innerHTML = `${timenya}, ${nama}`;
 
 let silinder = document.getElementById('silinder-form');
 let kerucut = document.getElementById('kerucut-form');
