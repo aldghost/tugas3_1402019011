@@ -19,7 +19,7 @@ else {
 
 console.log(timenya)
 
-document.getElementById('nama-user').innerHTML = `${timenya}, ${nama}`;
+document.getElementById('nama-user').value = `${timenya}, ${nama}`;
 
 let silinder = document.getElementById('silinder-form');
 let kerucut = document.getElementById('kerucut-form');
