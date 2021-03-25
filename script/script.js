@@ -17,9 +17,9 @@ else {
     timenya = "Malam";
 }
 
-console.log(timenya)
+console.log(jam)
 
-document.getElementById('nama-user').value = `${timenya}, ${nama}`;
+document.getElementById('nama-user').innerHTML = timenya;
 
 let silinder = document.getElementById('silinder-form');
 let kerucut = document.getElementById('kerucut-form');
